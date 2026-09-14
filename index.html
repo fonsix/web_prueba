@@ -3,88 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Artesanías de Nuestra Tierra</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" href="img/favicon.png" type="image/png">
+    <title>Aroma & Origen - Café de Especialidad</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="header">
-        <div class="logo">
-            <img src="img/logo.png" alt="Artesanías de Nuestra Tierra">
-        </div>
-        <nav class="nav">
-            <ul>
-                <li><a href="#promocion">Promoción</a></li>
-                <li><a href="#productos">Productos</a></li>
-                <li><a href="#informacion">Información</a></li>
-            </ul>
-        </nav>
-    </header>
-<!-- Contenido principal -->
-<main>
-   <section id="promocion" class="section">
-        <div class="card_center">
-            <h1>¡Bienvenidos a "Artesanías de Nuestra Tierra"!</h1>
-            <img src="img/central.png" alt="Promoción de Artesanías de Nuestra Tierra">
-            <h2>Descubre la belleza y el encanto de las artesanías de Boyacá y Cundinamarca, contamos una amplia selección de productos únicos y auténticos, elaborados con pasión y dedicación por talentosos artesanos locales...</h2>
-        </div>
-    </section>
-
-    <section id="productos" class="section">
-        <div class="container">
-            <div class="card">
-                <img src="img/1.png" alt="Producto 1">
-                <h3>Cesteria</h3>
-                <p>Productos elaborados con la mas alta calidad...</p>
-            </div>
-            <div class="card">
-                <img src="img/2.png" alt="Producto 2">
-                <h3>Metal</h3>
-                <p>Productos elaborados con la mas alta calidad...</p>
-            </div>
-            <div class="card">
-                <img src="img/3.png" alt="Producto 3">
-                <h3>Hilo</h3>
-                <p>Productos elaborados con la mas alta calidad...</p>
-            </div>
-            <div class="card">
-                <img src="img/4.png" alt="Producto 4">
-                <h3>Cerámica</h3>
-                <p>Productos elaborados con la mas alta calidad...</p>
-            </div>
-            <div class="card">
-                <img src="img/5.png" alt="Producto 5">
-                <h3>Lana</h3>
-                <p>Productos elaborados con la mas alta calidad...</p>
-            </div>
-            <div class="card">
-                <img src="img/6.png" alt="Producto 6">
-                <h3>Tela</h3>
-                <p>Productos elaborados con la mas alta calidad...</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="informacion" class="section">
-            <h2>Artesanías de Nuestra Tierra</h2>
-            <p>Explora nuestro catálogo virtual y déjate cautivar por la riqueza cultural y la historia que se reflejan en cada pieza. Desde tejidos tradicionales y cerámica artesanal hasta joyería finamente elaborada y esculturas impresionantes, tenemos algo especial para todos los amantes del arte y la artesanía.</p>
-            <p>Con "Artesanías de Nuestra Tierra", apoyas directamente a las comunidades locales y contribuyes al fomento de la cultura y el patrimonio de nuestra región. Además, disfruta de una experiencia de compra segura y conveniente, con envíos rápidos y atención personalizada.</p>
-            <p>¡Embárcate en un viaje de descubrimiento y encuentra tu próxima joya artesanal en "Artesanías de Nuestra Tierra" hoy mismo!</p>
-    </section>
-</main>    
-
-    <footer class="footer">
+    <header class="hero">
         <nav>
+            <div class="logo">Aroma & Origen</div>
             <ul>
-                <li><a href="#">Acerca de</a></li>
-                <li><a href="https://myfacebook.com"><i class="fab fa-facebook"></i> Facebook</a></li>
-                <li><a href="https://linkedin.com"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
-                <li><a href="https://github.com"><i class="fab fa-github"></i> GitHub</a></li>
-                <li><a href="mailto:myemail@gmail.com"><i class="fas fa-envelope"></i> myemail@gmail.com</a></li>
-                <li><a href="tel:3254562545"><i class="fas fa-phone-alt"></i> 3254562545</a></li>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#menu">Menú</a></li>
             </ul>
         </nav>
-        <p>&copy; 2024 Artesanías de Nuestra Tierra. Todos los derechos reservados.</p>
-    </footer>
+        <div class="hero-content">
+            <h1>El arte del buen café</h1>
+            <p>Granos seleccionados de origen local, tostados a la perfección.</p>
+        </div>
+    </header>
+
+    <section id="nosotros" class="about">
+        <h2>Nuestra Pasión</h2>
+        <p>Trabajamos directamente con productores locales para ofrecer una experiencia única en cada taza.</p>
+        <!-- Sustituye el src por la ruta de tu imagen local, ej: img/barista.jpg -->
+        <img src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=800&q=80" alt="Barista preparando café de especialidad">
+    </section>
+
+    <section id="menu" class="cards-container">
+        <div class="card">
+            <!-- Imagen local ej: img/granos.jpg -->
+            <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=500&q=80" alt="Café Espresso">
+            <h3>Espresso de Origen</h3>
+            <p>Notas a chocolate amargo y frutos rojos con cuerpo denso.</p>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1534778101976-62847782c213?auto=format&fit=crop&w=500&q=80" alt="Café Filtrado V60">
+            <h3>Métodos Filtrados</h3>
+            <p>Extracción artesanal en V60 y Prensa Francesa.</p>
+        </div>
+    </section>
 </body>
 </html>
